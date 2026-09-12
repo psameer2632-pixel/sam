@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile Card</title>
+    <style>
+        /* 1. Universal Selector */
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* 2. Element Selector */
+        body {
+            background-color: #eef2f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* 3. ID Selector */
+        #profile-card {
+            background-color: #ffffff;
+            width: 350px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* 4. Class Selector */
+        .student-name {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .bio-text {
+            color: #555555;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .favorite-box {
+            background-color: #e8f8f5;
+            padding: 10px;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+
+        /* 5. Group Selector */
+        h2, h3, p {
+            margin: 8px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+            text-align: left;
+            color: #34495e;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="profile-card">
+        <!-- Heading with Name -->
+        <h1 class="student-name">Alex Smith</h1>
+        
+        <!-- Paragraph introducing themselves -->
+        <p class="bio-text">Hello! I am a computer science student who loves building creative web pages and exploring new technologies.</p>
+        
+        <!-- List of 3 Hobbies -->
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Reading sci-fi books</li>
+            <li>Playing guitar</li>
+            <li>Digital painting</li>
+        </ul>
+        
+        <!-- Section showing favorite subject -->
+        <div class="favorite-box">
+            <h3>Favorite Subject</h3>
+            <p class="bio-text">Computer Science</p>
+        </div>
+    </div>
+
+</body>
+</html>
